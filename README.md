@@ -77,8 +77,8 @@ project-root/
 Склонируйте репозиторий и установите зависимости:
 
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/normaliner/test-assignment-vk.git
+cd test-assignment-vk
 npm install
 ```
 
