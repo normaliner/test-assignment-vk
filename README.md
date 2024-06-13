@@ -63,6 +63,7 @@ project-root/
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
+```
 
 ## Установка и запуск
 
@@ -75,33 +76,33 @@ project-root/
 
 Склонируйте репозиторий и установите зависимости:
 
-\```bash
+```bash
 git clone <repository_url>
 cd <repository_name>
 npm install
-\```
+```
 
 ### Настройка переменных окружения
 
 Создайте файл `.env` на основе `.env.default` и добавьте ваш API ключ:
 
-\```bash
+```bash
 cp .env.default .env
-\```
+```
 
 Откройте файл `.env` и добавьте ваш API ключ:
 
-\```makefile
+```makefile
 VITE_API_KEY=your_api_key_here
-\```
+```
 
 ### Запуск приложения
 
 Для запуска приложения в режиме разработки используйте команду:
 
-\```bash
+```bash
 npm run dev
-\```
+```
 
 Откройте [http://localhost:3000](http://localhost:3000) для просмотра в браузере.
 
@@ -109,9 +110,9 @@ npm run dev
 
 Для сборки приложения используйте команду:
 
-\```bash
+```bash
 npm run build
-\```
+```
 
 Собранное приложение будет находиться в директории `dist`.
 
@@ -119,9 +120,9 @@ npm run build
 
 Для запуска собранного приложения используйте команду:
 
-\```bash
+```bash
 npm run preview
-\```
+```
 
 Откройте [http://localhost:5000](http://localhost:5000) для просмотра в браузере.
 
